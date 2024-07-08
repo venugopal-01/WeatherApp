@@ -1,0 +1,13 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('VCf1lhA.jpg'); 
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+/* body{
+  background-color: #10153a;
+} */

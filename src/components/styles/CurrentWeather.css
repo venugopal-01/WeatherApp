@@ -1,0 +1,60 @@
+.current-weather {
+  /* background: linear-gradient(135deg, #FFF3E0, #FFE0B2); */
+  /* background-image: url('weather-05.webp'); 
+  background-size:cover;
+  background-position:left; */
+  border: 1px solid #fcd69d;
+  padding: 20px;
+  margin: 80px 20px 20px 20px; 
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+
+/* .current-weather:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+} */
+
+.current-weather h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  color: #ffc200;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.current-weather .condition {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #d2d1d1;
+  font-weight: bold;
+}
+
+.current-weather .temperature {
+  font-size: 36px;
+  margin: 10px 0;
+  color: #FF5733;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.current-weather .details {
+  margin: 10px 0;
+  color: #d2d1d1;
+  font-size: 16px;
+}
+
+.current-weather .details p {
+  margin: 5px 0;
+}
+
+.current-weather .weather-icon {
+  margin: 20px 0;
+}
+
+.current-weather .weather-icon img {
+  width: 100px;
+  height: 100px;
+}

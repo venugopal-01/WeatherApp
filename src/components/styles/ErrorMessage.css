@@ -1,0 +1,23 @@
+.error-message {
+  background: #FFCDD2;
+  color: #D32F2F;
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid #E57373;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 200;
+}
+
+.error-message button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: #D32F2F;
+}

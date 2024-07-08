@@ -1,0 +1,44 @@
+.daily-forecast {
+  /* background: #E8F5E9; */
+  border: 1px solid #66BB6A;
+  padding: 20px;
+  margin: 20px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.daily-forecast h2 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #388E3C;
+}
+
+.daily-forecast .daily-data {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.daily-forecast .day {
+  background: #C8E6C9;
+  border: 1px solid #43A047;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+  width: 120px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.daily-forecast .day .condition {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #2E7D32;
+}
+
+.daily-forecast .day .temperature {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #1B5E20;
+}

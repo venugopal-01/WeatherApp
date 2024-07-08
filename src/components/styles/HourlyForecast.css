@@ -1,0 +1,54 @@
+.hourly-forecast {
+  /* background: #E3F2FD; */
+  border: 1px solid #64B5F6;
+  padding: 20px;
+  margin: 20px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hourly-forecast h2 {
+  text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #82bbf5;
+}
+
+.hourly-forecast .hourly-data {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hourly-forecast .hour {
+  background: linear-gradient(135deg, #BBDEFB, #90CAF9);
+  border: 1px solid #2196F3;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 115px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+
+/* .hourly-forecast .hour:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} */
+
+.hourly-forecast .hour p {
+  margin: 5px 0;
+  color: #0D47A1;
+}
+
+.hourly-forecast .hour .condition {
+  font-size: 14px;
+  color: #1E88E5;
+}
+
+.hourly-forecast .hour .temperature {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0D47A1;
+}
