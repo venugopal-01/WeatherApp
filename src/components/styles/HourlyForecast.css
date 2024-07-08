@@ -29,13 +29,8 @@
   text-align: center;
   width: 115px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
 }
 
-/* .hourly-forecast .hour:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-} */
 
 .hourly-forecast .hour p {
   margin: 5px 0;
